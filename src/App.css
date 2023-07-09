@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+
+}
+
+.card__container {
+  padding: 44px 116px;
+  width: 550px;
+  height: 868px;
+  margin: 0 auto;
+  text-align: center;
+  background: #23252C;
+ 
+}
+.card__container > .digital__card {
+  border-radius: 10px;
+  width: 317px;
+  text-align: center;
+  background: #F5F5F5;
+  margin-bottom: 0;
+}
+
+.card__info > .card__img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  background: #F5F5F5;
+  margin-bottom: 20px;
+}
+.card__info > h2 {
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #2B283A;
+  margin-bottom: 6px;
+}
+.card__info > h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F47D27;
+  margin-bottom: 9px;
+}
+.card__info > h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #4A4E74;
+  margin-bottom: 17px;
+}
+
+.card__info > .info__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px;
+}
+.info__buttons > a {
+  text-decoration: none;
+}
+.info__buttons > .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 115px;
+  border-radius: 6px;
+  padding: 9px 13px;
+  border: 1px solid #D1D5DB;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.button > img {
+  width: 16px;
+  height: 16px;
+}
+.button > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+
+}
+.info__buttons > .button:nth-child(2) {
+  background-color: #297FE5;
+  border: none;
+}
+.info__buttons > .button:nth-child(2) > p {
+  color: #FFFFFF;
+}
+
+.card > .card__content {
+  margin: 25px 35px;
+  text-align: left;
+}
+
+.card__content > .card__about {
+  margin-bottom: 20px;
+}
+
+.card__about > h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2B283A;
+    margin-bottom: 5px;
+}
+
+.card__about > p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+
+/* or 15px */
+
+color: #4A4E74;
+}
+
+.card__interests > h4 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2B283A;
+  margin-bottom: 5px;
+}
+
+.card__interests > p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+
+/* or 15px */
+
+color: #4A4E74;
+}
+
+.card > .card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 72px;
+  Width: 317px;
+  background: #D5D4D8;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+.card__footer > a > img {
+  width: 25px;
+  height: 25px;
+}
